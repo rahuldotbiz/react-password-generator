@@ -80,6 +80,8 @@ class PasswordGenerator extends React.Component {
     } = this.state;
     return (
       <div className="password-generator">
+        <h1>Password Generator</h1>
+
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="password-length">
             Password Length:
